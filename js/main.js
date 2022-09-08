@@ -179,6 +179,9 @@ function correccionAngular() {
 			let suma = sumaSexagesimal(0,0,1,angulo[0],angulo[1],angulo[2])
 			angulosCorregidos.push(degreesRadianes(suma[0], suma[1], suma[2]))
 		}
+		for (let i=angulosCorregidos.length ;i<angulosMedio.length; i++){
+			angulosCorregidos.push(angulosMedio[i])
+		}
 		return angulosCorregidos
 	}
 }
