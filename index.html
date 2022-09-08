@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Topografía</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="icon" href="img/logo.png">
+	</head>
+	<body>
+		<div class="titulo">
+			<h1>Cálculo de errores y correcciones de una poligonal</h1>
+		</div>
+		<div class="tDatos" id="tDatos">
+			<div id="formNumero">
+				<h2 class="indicacion">Ingrese número de lados de la poligonal</h2>
+				<form>
+					<input min="3" type="number" name="nLados" id="numeroLados" placeholder="Ingrese el número de lados">
+				</form>
+				<button class="boton" type="button" onclick="formPoligonal()">Siguiente</button>
+			</div>
+			<div id="formPoligonal">
+			</div>
+			<div id="formAngulos">
+			</div>
+			<div id="formAzimut">
+			</div>
+			<div id="formCoordenada">
+			</div>
+		</div>
+		<div class="resultados">
+			<div id="tittle">
+			</div>
+			<div id="eAngular">
+			</div>
+			<div id="angulosCorregidos">
+			</div>
+			<div id="azimuts">
+			</div>
+			<div id="proyecciones">
+				<div id="pEste">
+				</div>
+				<div id="pNorte"></div>
+			</div>
+			<div id="eCierre">
+			</div>
+			<div id="precision">
+			</div>
+			<div id="compensaciones">
+				<div id="cEste">
+				</div>
+				<div id="cNorte"></div>
+			</div>
+			<div id="proyCorregidas">
+				<div id="pEsteC">
+				</div>
+				<div id="pNorteC"></div>
+			</div>
+			<div id="Coordenadas">
+			</div>
+		</div>
+		<!-- Formulario ingreso de datos -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
